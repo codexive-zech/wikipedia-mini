@@ -282,3 +282,21 @@ Wikipedia
     grid-template-columns: 1fr 1fr 1fr;
   }
 }
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer .social-icon {
+  font-size: 2rem;
+  padding-right: 1.5rem;
+  color: var(--primary-400);
+  transition: all 1.3s ease-in-out;
+}
+
+footer .social-icon:hover {
+  color: var(--primary-700);
+  transform: translateY(-15px);
+}
