@@ -287,6 +287,12 @@ Wikipedia
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 0.5rem;
+}
+.social-icons p {
+  font-size: 1.4rem;
+  padding-right: 0.8rem;
+  color: var(--primary-300);
 }
 
 footer .social-icon {
